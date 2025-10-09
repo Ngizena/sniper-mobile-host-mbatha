@@ -448,107 +448,6 @@
             border-bottom: none;
         }
 
-        /* Payment Modal */
-        .payment-modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.7);
-            z-index: 2000;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .payment-modal.active {
-            display: flex;
-        }
-
-        .payment-content {
-            background: white;
-            border-radius: 20px;
-            padding: 40px;
-            max-width: 500px;
-            width: 90%;
-            animation: slideUp 0.3s ease;
-        }
-
-        @keyframes slideUp {
-            from { transform: translateY(50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-
-        .payment-header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .payment-header h3 {
-            font-size: 1.8rem;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        .payment-options {
-            margin: 20px 0;
-        }
-
-        .payment-method {
-            background: #f8f9fa;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        .payment-method h4 {
-            color: #333;
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .payment-details {
-            background: white;
-            border: 2px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 15px;
-            margin: 10px 0;
-            position: relative;
-        }
-
-        .copy-btn {
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: #4CAF50;
-            color: white;
-            border: none;
-            padding: 8px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 0.9rem;
-        }
-
-        .copy-btn:hover {
-            background: #45a049;
-        }
-
-        .close-modal {
-            background: #f44336;
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            border-radius: 50px;
-            cursor: pointer;
-            font-size: 1rem;
-            width: 100%;
-            margin-top: 20px;
-        }
-
         /* Contact Bot */
         .chat-bot {
             display: none;
@@ -781,7 +680,6 @@
         <div class="header-content">
             <a href="#" class="logo">
                 <div class="logo-icon">
-                    <!-- Replace YOUR-LOGO.png with your actual logo file -->
                     <img src="images/logo.png" alt="Logo">
                 </div>
                 SNIPER MOBILE HOST MBATHA
@@ -820,7 +718,6 @@
                 <div class="phone-frame">
                     <div class="phone-screen">
                         <div class="app-logo">
-                            <!-- Replace YOUR-LOGO.png with your actual logo file -->
                             <img src="images/logo.png" alt="App Logo">
                         </div>
                         <div class="app-info">
@@ -855,7 +752,7 @@
             <p style="text-align: center; font-size: 1.2rem; color: #666; margin-bottom: 60px;">Join thousands of successful traders using our platform</p>
             
             <div class="students-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px;">
-                <!-- Student 1 -->
+                <!-- Student Cards 1-10 -->
                 <div class="student-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
                     <img src="images/student1.jpg" alt="Happy Student 1" style="width: 100%; height: auto; max-height: 400px; object-fit: contain; background: #f8f9fa;">
                     <div style="padding: 20px;">
@@ -865,7 +762,6 @@
                     </div>
                 </div>
                 
-                <!-- Student 2 -->
                 <div class="student-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
                     <img src="images/student2.jpg" alt="Happy Student 2" style="width: 100%; height: auto; max-height: 400px; object-fit: contain; background: #f8f9fa;">
                     <div style="padding: 20px;">
@@ -875,7 +771,6 @@
                     </div>
                 </div>
                 
-                <!-- Student 3 -->
                 <div class="student-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
                     <img src="images/student3.jpg" alt="Happy Student 3" style="width: 100%; height: auto; max-height: 400px; object-fit: contain; background: #f8f9fa;">
                     <div style="padding: 20px;">
@@ -885,7 +780,6 @@
                     </div>
                 </div>
                 
-                <!-- Student 4 -->
                 <div class="student-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
                     <img src="images/student4.jpg" alt="Happy Student 4" style="width: 100%; height: auto; max-height: 400px; object-fit: contain; background: #f8f9fa;">
                     <div style="padding: 20px;">
@@ -895,7 +789,6 @@
                     </div>
                 </div>
                 
-                <!-- Student 5 -->
                 <div class="student-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
                     <img src="images/student5.jpg" alt="Happy Student 5" style="width: 100%; height: auto; max-height: 400px; object-fit: contain; background: #f8f9fa;">
                     <div style="padding: 20px;">
@@ -905,7 +798,6 @@
                     </div>
                 </div>
                 
-                <!-- Student 6 -->
                 <div class="student-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
                     <img src="images/student6.jpg" alt="Happy Student 6" style="width: 100%; height: auto; max-height: 400px; object-fit: contain; background: #f8f9fa;">
                     <div style="padding: 20px;">
@@ -915,7 +807,6 @@
                     </div>
                 </div>
                 
-                <!-- Student 7 -->
                 <div class="student-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
                     <img src="images/student7.jpg" alt="Happy Student 7" style="width: 100%; height: auto; max-height: 400px; object-fit: contain; background: #f8f9fa;">
                     <div style="padding: 20px;">
@@ -925,7 +816,6 @@
                     </div>
                 </div>
                 
-                <!-- Student 8 -->
                 <div class="student-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
                     <img src="images/student8.jpg" alt="Happy Student 8" style="width: 100%; height: auto; max-height: 400px; object-fit: contain; background: #f8f9fa;">
                     <div style="padding: 20px;">
@@ -935,7 +825,6 @@
                     </div>
                 </div>
                 
-                <!-- Student 9 -->
                 <div class="student-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
                     <img src="images/student9.jpg" alt="Happy Student 9" style="width: 100%; height: auto; max-height: 400px; object-fit: contain; background: #f8f9fa;">
                     <div style="padding: 20px;">
@@ -945,7 +834,6 @@
                     </div>
                 </div>
                 
-                <!-- Student 10 -->
                 <div class="student-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s;">
                     <img src="images/student10.jpg" alt="Happy Student 10" style="width: 100%; height: auto; max-height: 400px; object-fit: contain; background: #f8f9fa;">
                     <div style="padding: 20px;">
@@ -989,19 +877,19 @@
     <section class="pricing" id="pricing">
         <h2>Choose Your Plan</h2>
         <div class="special-offer">
-            🎉 LIMITED TIME: 50% OFF ALL PLANS! 🎉
+            🎉 LIMITED TIME: SPECIAL PRICING! 🎉
             <div class="countdown" id="countdown">Offer ends in: 29:23:59:45</div>
         </div>
         <div class="pricing-grid">
             <div class="pricing-card">
                 <h3>3 DAYS</h3>
-                <div class="price">FREE</div>
+                <div class="price">$5<span>/3 days</span></div>
                 <ul class="pricing-features">
                     <li>✅ Test the system</li>
                     <li>✅ 2 MT5 accounts</li>
                     <li>✅ Basic features</li>
                 </ul>
-                <button class="btn btn-primary" onclick="selectPlan('3days', 'FREE')">Start Free Trial</button>
+                <button class="btn btn-primary" onclick="buyPlan('https://whop.com/sniper-mobile-host-f499/3-days-key')">Get Started</button>
             </div>
             <div class="pricing-card">
                 <h3>WEEKLY</h3>
@@ -1011,7 +899,7 @@
                     <li>✅ 2 MT5 accounts</li>
                     <li>✅ Standard features</li>
                 </ul>
-                <button class="btn btn-primary" onclick="selectPlan('weekly', '$25')">Get Started</button>
+                <button class="btn btn-primary" onclick="buyPlan('https://whop.com/sniper-mobile-host-f499/7-days-key')">Get Started</button>
             </div>
             <div class="pricing-card popular">
                 <span class="popular-badge">MOST POPULAR</span>
@@ -1022,7 +910,7 @@
                     <li>✅ Standard trading modes</li>
                     <li>✅ Basic support</li>
                 </ul>
-                <button class="btn btn-primary" onclick="selectPlan('monthly', '$35')">Get Started</button>
+                <button class="btn btn-primary" onclick="buyPlan('https://whop.com/sniper-mobile-host-f499/30-days-key')">Get Started</button>
             </div>
             <div class="pricing-card">
                 <h3>QUARTERLY</h3>
@@ -1032,7 +920,7 @@
                     <li>✅ Advanced trading modes</li>
                     <li>✅ Priority support</li>
                 </ul>
-                <button class="btn btn-primary" onclick="selectPlan('quarterly', '$55')">Get Started</button>
+                <button class="btn btn-primary" onclick="buyPlan('https://whop.com/sniper-mobile-host-f499/3-months-key')">Get Started</button>
             </div>
             <div class="pricing-card">
                 <h3>SEMI-ANNUAL</h3>
@@ -1042,79 +930,31 @@
                     <li>✅ All trading modes</li>
                     <li>✅ Premium support</li>
                 </ul>
-                <button class="btn btn-primary" onclick="selectPlan('semiannual', '$75')">Get Started</button>
+                <button class="btn btn-primary" onclick="buyPlan('https://whop.com/sniper-mobile-host-f499/6-months-key')">Get Started</button>
             </div>
             <div class="pricing-card">
                 <h3>ANNUAL</h3>
-                <div class="price">$95<span>/year</span></div>
+                <div class="price">$99<span>/year</span></div>
                 <ul class="pricing-features">
                     <li>✅ 10 MT5 accounts</li>
                     <li>✅ All features unlocked</li>
                     <li>✅ Direct support</li>
                 </ul>
-                <button class="btn btn-primary" onclick="selectPlan('annual', '$95')">Get Started</button>
+                <button class="btn btn-primary" onclick="buyPlan('https://whop.com/sniper-mobile-host-f499/1year-key/')">Get Started</button>
             </div>
             <div class="pricing-card">
                 <h3>LIFETIME</h3>
-                <div class="price">$115</div>
+                <div class="price">$149</div>
                 <ul class="pricing-features">
                     <li>✅ All features</li>
                     <li>✅ Lifetime access</li>
                     <li>✅ Premium privileges</li>
-                    <li>⭐ Contact Mr Sniper for key</li>
+                    <li>⭐ Best Value</li>
                 </ul>
-                <button class="btn btn-primary" onclick="selectPlan('lifetime', '$115')">Get Lifetime Access</button>
+                <button class="btn btn-primary" onclick="buyPlan('https://whop.com/sniper-mobile-host-f499/lifetime-key-2e/')">Get Lifetime Access</button>
             </div>
         </div>
     </section>
-
-    <!-- Payment Modal -->
-    <div class="payment-modal" id="paymentModal">
-        <div class="payment-content">
-            <div class="payment-header">
-                <h3>Complete Your Purchase</h3>
-                <p>Plan: <span id="selectedPlan"></span> - Price: <span id="selectedPrice"></span></p>
-            </div>
-            
-            <div class="payment-options">
-                <div class="payment-method">
-                    <h4>🇿🇦 For South Africa</h4>
-                    <div class="payment-details">
-                        <strong>Capitec Bank</strong><br>
-                        Account: Mr Mbatha<br>
-                        Account Number: <span id="bankAccount">1701528884</span>
-                        <button class="copy-btn" onclick="copyText('1701528884')">Copy</button>
-                    </div>
-                </div>
-                
-                <div class="payment-method">
-                    <h4>🌍 For Other Countries - Crypto</h4>
-                    <div class="payment-details">
-                        <strong>USDT TRC20</strong><br>
-                        Address: <span id="cryptoAddress" style="word-break: break-all;">TKxp87zVcH4zZ3Ed1C7dM4WBDSrgEQYV8C</span>
-                        <button class="copy-btn" onclick="copyText('TKxp87zVcH4zZ3Ed1C7dM4WBDSrgEQYV8C')">Copy</button>
-                    </div>
-                </div>
-                
-                <div class="payment-method">
-                    <h4>💰 Binance Payment</h4>
-                    <div class="payment-details">
-                        <strong>Binance Pay ID</strong><br>
-                        ID: <span id="binanceId">1049007947</span>
-                        <button class="copy-btn" onclick="copyText('1049007947')">Copy</button>
-                    </div>
-                </div>
-                
-                <div style="background: #fff3cd; padding: 15px; border-radius: 8px; text-align: center;">
-                    <strong>📸 Send Proof of Payment</strong><br>
-                    WhatsApp: +27 728 239 526<br>
-                    <a href="https://wa.me/27728239526" target="_blank" style="color: #25D366; font-weight: bold;">Click to WhatsApp</a>
-                </div>
-            </div>
-            
-            <button class="close-modal" onclick="closePaymentModal()">Close</button>
-        </div>
-    </div>
 
     <!-- Chat Bot -->
     <div class="chat-bot" id="chatBot">
@@ -1167,7 +1007,7 @@
                     <span class="faq-arrow">▼</span>
                 </div>
                 <div class="faq-answer">
-                    Start with our free 3-day trial to test the system. For regular traders, we recommend the monthly or quarterly plans. Heavy traders should consider semi-annual or annual plans for better value.
+                    Start with our 3-day plan to test the system. For regular traders, we recommend the monthly or quarterly plans. Heavy traders should consider semi-annual or annual plans for better value.
                 </div>
             </div>
             <div class="faq-item">
@@ -1176,7 +1016,7 @@
                     <span class="faq-arrow">▼</span>
                 </div>
                 <div class="faq-answer">
-                    We accept Capitec Bank transfers for South African clients, USDT TRC20 for international clients, and Binance Pay (ID: 1049007947) for quick crypto payments. After payment, send proof via WhatsApp for instant activation.
+                    We accept all major payment methods through Whop.com, including credit cards, PayPal, and cryptocurrency. Simply click on any plan to proceed to secure checkout.
                 </div>
             </div>
             <div class="faq-item">
@@ -1250,23 +1090,14 @@
             faqItem.classList.toggle('active');
         }
 
-         // Payment Modal Functions
-        function selectPlan(plan, price) {
-            document.getElementById('selectedPlan').textContent = plan.toUpperCase();
-            document.getElementById('selectedPrice').textContent = price;
-            document.getElementById('paymentModal').classList.add('active');
-        }
-function downloadAPK() {
-    window.location.href = 'https://github.com/Ngizena/sniper-mobile-host-mbatha/releases/download/v1.0/sniper.mobile.robot.host.apk';
-}
-  function closePaymentModal() {
-            document.getElementById('paymentModal').classList.remove('active');
+        // Buy Plan Function - Opens Whop link in new tab
+        function buyPlan(whopUrl) {
+            window.open(whopUrl, '_blank');
         }
 
-        function copyText(text) {
-            navigator.clipboard.writeText(text).then(() => {
-                alert('Copied to clipboard!');
-            });
+        // Download APK Function
+        function downloadAPK() {
+            window.location.href = 'https://github.com/Ngizena/sniper-mobile-host-mbatha/releases/download/v1.0/sniper.mobile.robot.host.apk';
         }
 
         // Chat Bot Functions
@@ -1279,9 +1110,9 @@ function downloadAPK() {
         }
 
         const botResponses = {
-            pricing: "Our pricing plans:\n\n• 3 Days: FREE\n• 7 Days: $25\n• 30 Days: $35\n• 3 Months: $55\n• 6 Months: $75\n• 1 Year: $95\n• Lifetime: $115\n\nAll plans include 50% OFF limited time offer!",
-            activation: "To activate your license:\n1. Purchase a plan\n2. Send payment proof via WhatsApp\n3. Receive your license key within 5 minutes\n4. Enter key in the app\n\nNeed help? WhatsApp: +27 728 239 526",
-            payment: "Payment Methods:\n\n🇿🇦 South Africa: Capitec Bank\nAccount: Mr Mbatha\nNumber: 1701528884\n\n💰 Binance Pay\nID: 1049007947\n\n🌍 International: USDT TRC20\nAddress: TKxp87zVcH4zZ3Ed1C7dM4WBDSrgEQYV8C\n\nSend proof to WhatsApp: +27 728 239 526",
+            pricing: "Our pricing plans:\n\n• 3 Days: $5\n• 7 Days: $25\n• 30 Days: $35\n• 3 Months: $55\n• 6 Months: $75\n• 1 Year: $99\n• Lifetime: $149\n\nClick any plan above to purchase securely through Whop!",
+            activation: "To activate your license:\n1. Purchase a plan through Whop\n2. Receive your license key via email\n3. Enter key in the app\n\nNeed help? WhatsApp: +27 728 239 526",
+            payment: "Payment Methods:\n\nWe accept all major payment methods through Whop.com:\n• Credit/Debit Cards\n• PayPal\n• Cryptocurrency\n• Apple Pay\n• Google Pay\n\nAll payments are secure and processed instantly!",
             technical: "For technical support:\n• Ensure stable internet\n• Update to latest version\n• Clear app cache\n• Restart device\n\nStill need help?\nEmail: fxsniper076@gmail.com\nWhatsApp: +27 728 239 526"
         };
 
@@ -1297,16 +1128,6 @@ function downloadAPK() {
                     </div>
                 </div>
             `;
-            
-            // Send email notification (you need to implement this server-side)
-            sendEmailNotification(topic);
-        }
-
-        function sendEmailNotification(topic) {
-            // This would normally send to your server
-            // For now, we'll just log it
-            console.log('User inquired about:', topic);
-            // In production, implement server-side email sending to fxsniper076@gmail.com
         }
 
         // Smooth Scrolling
@@ -1346,10 +1167,4 @@ function downloadAPK() {
         });
     </script>
 </body>
-
 </html>
-
-
-
-
-
